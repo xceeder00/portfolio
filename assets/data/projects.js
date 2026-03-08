@@ -1,10 +1,10 @@
-﻿var PROJECTS = [
+var PROJECTS = [
     {
       slug: 'happybed',
       title: 'HappyBed',
       year: '2023 - 2026',
       description: 'a/b testing, custom bundles, full site redesign, popups, various bundles integration, different templates for product types, etc',
-      image: 'assets/images/projects/happybed.png',
+      image: 'assets/images/projects/happybed.webp',
       link: 'https://happybed.nl',
       tags: ['A/B Testing', 'Shopify Plus', 'Bundles', 'Redesign']
     },
@@ -13,7 +13,7 @@
       title: 'Cook & Pan',
       year: '2023 - 2026',
       description: 'Led full store redesign, implemented structured A/B testing, built upsell and discount logic improving revenue per session',
-      image: 'assets/images/projects/cookandpan.png',
+      image: 'assets/images/projects/cookandpan.webp',
       link: 'https://cookandpan.com',
       tags: ['A/B Testing', 'Redesign', 'Upsell']
     },
@@ -22,7 +22,7 @@
     title: 'Airback',
     year: '2026',
     description: '',
-    image: 'assets/images/projects/airback.png',
+    image: 'assets/images/projects/airback.webp',
       link: 'https://airback.store/',
     tags: []
   },
@@ -31,7 +31,7 @@
     title: 'Ateljeesaar',
     year: '2026',
     description: '',
-    image: 'assets/images/projects/ateljeesaar.png',
+    image: 'assets/images/projects/ateljeesaar.webp',
       link: 'https://ateljeesaar.nl/',
     tags: []
   },
@@ -40,7 +40,7 @@
     title: 'Atlas Auto',
     year: '2025-2026',
     description: '',
-    image: 'assets/images/projects/atlasauto.png',
+    image: 'assets/images/projects/atlasauto.webp',
       link: 'https://atlasauto.com.ua',
     tags: []
   },
@@ -49,7 +49,7 @@
     title: 'Kip-a-Loha',
     year: '2025-2026',
     description: '',
-    image: 'assets/images/projects/kip-a-loha.png',
+    image: 'assets/images/projects/kip-a-loha.webp',
       link: 'https://kipalohadamesmode.nl/',
     tags: []
 },
@@ -58,7 +58,7 @@
   title: 'Sneakerask',
   year: '2023 - 2026',
   description: 'a/b testing, custom bundles, full site redesign, popups, custom price functionality, translations, and more and more',
-  image: 'assets/images/projects/sneakerask.png',
+  image: 'assets/images/projects/sneakerask.webp',
   link: 'https://sneakerask.nl',
   tags: ['A/B Testing', 'Redesign', 'Bundles', 'Translations', 'Custom Pricing']
 },
@@ -67,7 +67,7 @@
     title: "Men's Best Basics",
     year: '2025-2026',
     description: '',
-    image: 'assets/images/projects/mens-best-basics.png',
+    image: 'assets/images/projects/mens-best-basics.webp',
       link: 'https://mensbestbasics.nl/',
     tags: []
   },
@@ -76,7 +76,7 @@
     title: 'Sjumo',
     year: '2025-2026',
     description: '',
-    image: 'assets/images/projects/sjumo.png',
+    image: 'assets/images/projects/sjumo.webp',
       link: 'https://sjumo.com/',
     tags: []
   },
@@ -85,7 +85,7 @@
     title: 'Breathlio',
     year: '2025',
     description: '',
-    image: 'assets/images/projects/breathlio.png',
+    image: 'assets/images/projects/breathlio.webp',
       link: 'https://breathelio.com/',
     tags: []
   },
@@ -94,7 +94,7 @@
     title: 'Dreaver',
     year: '2025',
     description: '',
-    image: 'assets/images/projects/dreaver.png',
+    image: 'assets/images/projects/dreaver.webp',
       link: 'https://dreaver.nl/',
     tags: []
   },
@@ -103,7 +103,7 @@
     title: 'Eclat',
     year: '2025',
     description: '',
-    image: 'assets/images/projects/eclat.png',
+    image: 'assets/images/projects/eclat.webp',
       link: 'https://eclatantbeauty.nl/',
     tags: []
   },
@@ -112,7 +112,7 @@
     title: 'Zelesta',
     year: '2025',
     description: '',
-    image: 'assets/images/projects/zelesta.png',
+    image: 'assets/images/projects/zelesta.webp',
       link: 'https://zelesta.nl/',
     tags: []
   },
@@ -121,7 +121,7 @@
     title: 'Zeuz',
     year: '2025',
     description: '',
-    image: 'assets/images/projects/zeuz.png',
+    image: 'assets/images/projects/zeuz.webp',
       link: 'https://www.zeuzfitness.com/',
     tags: []
   },
@@ -130,7 +130,7 @@
     title: 'Detailrs',
     year: '2024-2025',
     description: '',
-    image: 'assets/images/projects/detailrs.png',
+    image: 'assets/images/projects/detailrs.webp',
       link: 'https://www.detailrs.nl/',
     tags: []
   },
@@ -139,7 +139,7 @@
     title: 'Marielle Stokellar',
     year: '2024-2025',
     description: '',
-    image: 'assets/images/projects/marielle-stokellar.png',
+    image: 'assets/images/projects/marielle-stokellar.webp',
       link: 'https://mariellestokkelaar.com/',
     tags: []
   },
@@ -148,7 +148,7 @@
     title: 'Pierced',
     year: '2024-2026',
     description: '',
-    image: 'assets/images/projects/pierced.png',
+    image: 'assets/images/projects/pierced.webp',
     link: 'https://pierced.ie',
     tags: []
   },
@@ -157,7 +157,7 @@
     title: 'Chery Style',
     year: '2023 - 2025',
     description: 'a/b testing, custom bundle functionalities, shoe popup functionality, full translation at 3 languages',
-    image: 'assets/images/projects/chery-style.png',
+    image: 'assets/images/projects/chery-style.webp',
     link: 'https://cherystyle.nl',
     tags: ['A/B Testing', 'Bundles', 'Translations', 'Custom Features']
   },
@@ -166,7 +166,7 @@
     title: 'Fatbikeskopen',
     year: '2023 - 2025',
     description: 'a/b testing, custom compare bikes functionality, custom try bikes functionality',
-    image: 'assets/images/projects/fatbikeskopen.png',
+    image: 'assets/images/projects/fatbikeskopen.webp',
     link: 'https://fatbikeskopen.nl',
     tags: ['A/B Testing', 'Custom Features', 'Shopify Plus']
   },
@@ -175,7 +175,7 @@
     title: 'First Amsterdam',
     year: '2023 - 2024',
     description: 'a/b testing, custom bundles, API, custom popups, translations, reviews',
-    image: 'assets/images/projects/first-amsterdam.png',
+    image: 'assets/images/projects/first-amsterdam.webp',
     link: 'https://firstamsterdam.com',
     tags: ['A/B Testing', 'Bundles', 'API', 'Translations']
   },
@@ -184,7 +184,7 @@
     title: 'BALZY',
     year: '2023 - 2024',
     description: 'full website redesign, used a discounts, custom bundles, transfer from webflow, a/b testing',
-    image: 'assets/images/projects/balzy.png',
+    image: 'assets/images/projects/balzy.webp',
     link: 'https://balzy.eu',
     tags: ['Redesign', 'Bundles', 'Webflow', 'A/B Testing']
   },
@@ -193,7 +193,7 @@
     title: 'Fugazzi Fragrances',
     year: '2022 - 2023',
     description: 'Full Shopify store development from scratch, built custom subscription integration with Recharge, implemented advanced Klaviyo flows, developed bundle logic and custom cart functionality',
-    image: 'assets/images/projects/fugazzi.png',
+    image: 'assets/images/projects/fugazzi.webp',
     link: 'https://fugazzifragrances.com',
     tags: ['Custom Theme', 'Subscriptions', 'Klaviyo', 'Bundles']
   },
@@ -202,7 +202,7 @@
     title: 'Sayn Beauty',
     year: '2022 - 2023',
     description: 'full website development, used Storyly, Klaviyo, Quiz, Searchspring, Calendly, and many other apps',
-    image: 'assets/images/projects/sayn-beauty.png',
+    image: 'assets/images/projects/sayn-beauty.webp',
     link: 'https://saynbeauty.com',
     tags: ['Custom Theme', 'Klaviyo', 'Integrations']
   },
@@ -211,7 +211,7 @@
     title: 'Growlight Heaven',
     year: '2021 - 2022',
     description: 'full website development from scratch, used Klevu for search and filter, develop custom Wishlist, Set Klaviyo flows',
-    image: 'assets/images/projects/growlight-heaven.png',
+    image: 'assets/images/projects/growlight-heaven.webp',
     link: 'https://growlightheaven.com',
     tags: ['Custom Theme', 'Klaviyo', 'Integrations', 'Custom Features']
   },
@@ -220,7 +220,7 @@
     title: 'GRS electrodomesticos',
     year: '2021 - 2022',
     description: 'full website development from scratch',
-    image: 'assets/images/projects/grs.png',
+    image: 'assets/images/projects/grs.webp',
       link: 'https://sv.grsenlinea.com/',
     tags: ['Custom Theme', 'Full Development']
   },
@@ -229,7 +229,7 @@
     title: 'Natasha Denona',
     year: '2020 - 2022',
     description: 'full website development, animation, Modern apps',
-    image: 'assets/images/projects/natashadenona.png',
+    image: 'assets/images/projects/natashadenona.webp',
     link: 'https://natashadenona.com',
     tags: ['Custom Theme', 'GSAP', 'Performance']
   },
@@ -238,7 +238,7 @@
     title: 'JENTL',
     year: '2020 - 2022',
     description: 'New theme from scratch, animation, live cart',
-    image: 'assets/images/projects/jentl.png',
+    image: 'assets/images/projects/jentl.webp',
     link: 'https://jentl.com',
     tags: ['Custom Theme', 'GSAP', 'Custom Features']
   },
@@ -248,7 +248,7 @@
     title: 'Islas Secas',
     year: '2020 - 2021',
     description: 'Pixel perfect, GSAP, smooth-scroll',
-    image: 'assets/images/projects/islas-secas.png',
+    image: 'assets/images/projects/islas-secas.webp',
     link: 'https://islassecas.com',
     tags: ['GSAP', 'Performance', 'Custom Theme']
   },
@@ -257,7 +257,7 @@
     title: 'Cambridge Distillery',
     year: '2020 - 2021',
     description: 'Shopify integration, GSAP',
-    image: 'assets/images/projects/cambridge-distillery.png',
+    image: 'assets/images/projects/cambridge-distillery.webp',
     link: 'https://cambridgedistillery.co.uk',
     tags: ['GSAP', 'Integrations']
   },
@@ -266,7 +266,7 @@
     title: 'Kisawa',
     year: '2020 - 2021',
     description: 'pixel perfect, Vue.js, custom booking, GSAP',
-    image: 'assets/images/projects/kisawa.png',
+    image: 'assets/images/projects/kisawa.webp',
       link: 'https://kisawasanctuary.com/',
     tags: ['GSAP', 'VUE.js', 'Custom Features', 'Performance']
   },
@@ -275,7 +275,7 @@
     title: 'Optimo',
     year: '2020 - 2021',
     description: 'Shopify integration, animation, barba.js',
-    image: 'assets/images/projects/optimo.png',
+    image: 'assets/images/projects/optimo.webp',
     link: 'https://optimohats.com',
     tags: ['GSAP', 'Integrations', 'Custom Theme']
   },
@@ -284,7 +284,7 @@
     title: 'Lixirskin',
     year: '2020 - 2021',
     description: 'Shopify, GSAP, Barba.js',
-    image: 'assets/images/projects/lixirskin.png',
+    image: 'assets/images/projects/lixirskin.webp',
       link: 'https://lixirskin.co.uk/',
     tags: ['GSAP', 'Integrations', 'Custom Theme']
   },
@@ -293,7 +293,7 @@
     title: 'Hanscomb',
     year: '2019 - 2020',
     description: 'Pixel perfect, GSAP',
-    image: 'assets/images/projects/hanscomb.png',
+    image: 'assets/images/projects/hanscomb.webp',
     link: 'https://hanscomb.com',
     tags: ['GSAP', 'Performance']
   },
@@ -302,7 +302,7 @@
     title: 'Medidata',
     year: '2019 - 2020',
     description: 'Vue.js',
-    image: 'assets/images/projects/medidata.png',
+    image: 'assets/images/projects/medidata.webp',
     link: 'https://medidata.com',
     tags: ['VUE.js']
   },
@@ -311,7 +311,7 @@
     title: 'WCBS',
     year: '2019 - 2020',
     description: 'GSAP, Mentor, Vue.js',
-    image: 'assets/images/projects/wcbs.png',
+    image: 'assets/images/projects/wcbs.webp',
     link: 'https://wcbs.sport',
     tags: ['GSAP', 'VUE.js', 'Team Lead']
   },
@@ -320,7 +320,7 @@
     title: 'Grocery Aid',
     year: '2019 - 2020',
     description: 'Animation, pixel perfect',
-    image: 'assets/images/projects/grocery-aid.png',
+    image: 'assets/images/projects/grocery-aid.webp',
     link: 'https://groceryaid.org.uk',
     tags: ['GSAP', 'Performance']
   },
@@ -329,7 +329,7 @@
     title: 'Global Coach Sales',
     year: '2019 - 2020',
     description: 'Shopify integration',
-    image: 'assets/images/projects/global-coach-sales.png',
+    image: 'assets/images/projects/global-coach-sales.webp',
     link: 'https://globalcoachsales.com',
     tags: ['Integrations', 'Custom Theme']
   }
