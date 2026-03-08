@@ -1,5 +1,23 @@
 ﻿var PROJECTS = [
-  {
+    {
+      slug: 'happybed',
+      title: 'HappyBed',
+      year: '2023 - 2026',
+      description: 'a/b testing, custom bundles, full site redesign, popups, various bundles integration, different templates for product types, etc',
+      image: 'assets/images/projects/happybed.png',
+      link: 'https://happybed.nl',
+      tags: ['A/B Testing', 'Shopify Plus', 'Bundles', 'Redesign']
+    },
+    {
+      slug: 'cookandpan',
+      title: 'Cook & Pan',
+      year: '2023 - 2026',
+      description: 'Led full store redesign, implemented structured A/B testing, built upsell and discount logic improving revenue per session',
+      image: 'assets/images/projects/cookandpan.png',
+      link: 'https://cookandpan.com',
+      tags: ['A/B Testing', 'Redesign', 'Upsell']
+    },
+    {
     slug: 'airback',
     title: 'Airback',
     year: '2026',
@@ -34,7 +52,16 @@
     image: 'assets/images/projects/kip-a-loha.png',
       link: 'https://kipalohadamesmode.nl/',
     tags: []
-  },
+},
+{
+  slug: 'sneakerask',
+  title: 'Sneakerask',
+  year: '2023 - 2026',
+  description: 'a/b testing, custom bundles, full site redesign, popups, custom price functionality, translations, and more and more',
+  image: 'assets/images/projects/sneakerask.png',
+  link: 'https://sneakerask.nl',
+  tags: ['A/B Testing', 'Redesign', 'Bundles', 'Translations', 'Custom Pricing']
+},
   {
     slug: 'mens-best-basics',
     title: "Men's Best Basics",
@@ -124,33 +151,6 @@
     image: 'assets/images/projects/pierced.png',
     link: 'https://pierced.ie',
     tags: []
-  },
-  {
-    slug: 'happybed',
-    title: 'HappyBed',
-    year: '2023 - Present',
-    description: 'a/b testing, custom bundles, full site redesign, popups, various bundles integration, different templates for product types, etc',
-    image: 'assets/images/projects/happybed.png',
-    link: 'https://happybed.nl',
-    tags: ['A/B Testing', 'Shopify Plus', 'Bundles', 'Redesign']
-  },
-  {
-    slug: 'sneakerask',
-    title: 'Sneakerask',
-    year: '2023 - Present',
-    description: 'a/b testing, custom bundles, full site redesign, popups, custom price functionality, translations, and more and more',
-    image: 'assets/images/projects/sneakerask.png',
-    link: 'https://sneakerask.nl',
-    tags: ['A/B Testing', 'Redesign', 'Bundles', 'Translations', 'Custom Pricing']
-  },
-  {
-    slug: 'cookandpan',
-    title: 'Cook & Pan',
-    year: '2023 - Present',
-    description: 'Led full store redesign, implemented structured A/B testing, built upsell and discount logic improving revenue per session',
-    image: 'assets/images/projects/cookandpan.png',
-    link: 'https://cookandpan.com',
-    tags: ['A/B Testing', 'Redesign', 'Upsell']
   },
   {
     slug: 'chery-style',
@@ -251,15 +251,7 @@
     link: 'https://jentl.com',
     tags: ['Custom Theme', 'GSAP', 'Custom Features']
   },
-  {
-    slug: 'hue-division',
-    title: 'Hue Division',
-    year: '2020 - 2022',
-    description: 'Animations Shopify integration, GSAP, organizing team work, mentor',
-    image: 'assets/images/projects/hue-division.png',
-    link: 'https://nuhu.co',
-    tags: ['GSAP', 'Integrations', 'Team Lead']
-  },
+
   {
     slug: 'islas-secas',
     title: 'Islas Secas',

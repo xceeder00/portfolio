@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio — Pavlo Putintsev</title>
+  <meta name="description" content="Recent projects by Pavlo Putintsev — Senior Shopify Developer.">
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav__links">
+      <a href="../" class="nav__link">Home</a>
+      <a href="./" class="nav__link nav__link--active">Portfolio</a>
+      <a href="../about/" class="nav__link">About</a>
+    </div>
+    <span class="nav__name nav__name--fade">Pavlo Putintsev</span>
+  </nav>
+
+  <section class="portfolio-hero">
+    <h1 class="portfolio-hero__title anim-fade-up">Selected Work</h1>
+    <p class="portfolio-hero__subtitle anim-fade-up" style="animation-delay: 0.15s">A curated collection of projects I've built and optimized</p>
+    <a href="#projects" class="portfolio-hero__arrow anim-fade-in" aria-label="Scroll to projects">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="6 9 12 15 18 9"></polyline>
+      </svg>
+    </a>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="projects__filters" id="filters"></div>
+    <div class="projects__grid" id="projects-grid"></div>
+  </section>
+
+  <script src="../assets/data/projects.js"></script>
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
