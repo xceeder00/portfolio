@@ -207,15 +207,6 @@
     tags: ['Custom Theme', 'Klaviyo', 'Integrations']
   },
   {
-    slug: 'boldface',
-    title: 'Boldface Makeup',
-    year: '2022 - 2023',
-    description: 'Setting up sales campaign with discounts, working with Shopify scripts, adjusting design',
-    image: 'assets/images/projects/boldface.png',
-    link: 'https://boldfacebeauty.com',
-    tags: ['Shopify Plus', 'Discounts', 'Scripts']
-  },
-  {
     slug: 'growlight-heaven',
     title: 'Growlight Heaven',
     year: '2021 - 2022',
