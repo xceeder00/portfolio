@@ -1,5 +1,131 @@
 ﻿var PROJECTS = [
   {
+    slug: 'airback',
+    title: 'Airback',
+    year: '2026',
+    description: '',
+    image: 'assets/images/projects/airback.png',
+      link: 'https://airback.store/',
+    tags: []
+  },
+  {
+    slug: 'ateljeesaar',
+    title: 'Ateljeesaar',
+    year: '2026',
+    description: '',
+    image: 'assets/images/projects/ateljeesaar.png',
+      link: 'https://ateljeesaar.nl/',
+    tags: []
+  },
+  {
+    slug: 'atlasauto',
+    title: 'Atlas Auto',
+    year: '2025-2026',
+    description: '',
+    image: 'assets/images/projects/atlasauto.png',
+      link: 'https://atlasauto.com.ua',
+    tags: []
+  },
+  {
+    slug: 'kip-a-loha',
+    title: 'Kip-a-Loha',
+    year: '2025-2026',
+    description: '',
+    image: 'assets/images/projects/kip-a-loha.png',
+      link: 'https://kipalohadamesmode.nl/',
+    tags: []
+  },
+  {
+    slug: 'mens-best-basics',
+    title: "Men's Best Basics",
+    year: '2025-2026',
+    description: '',
+    image: 'assets/images/projects/mens-best-basics.png',
+      link: 'https://mensbestbasics.nl/',
+    tags: []
+  },
+  {
+    slug: 'sjumo',
+    title: 'Sjumo',
+    year: '2025-2026',
+    description: '',
+    image: 'assets/images/projects/sjumo.png',
+      link: 'https://sjumo.com/',
+    tags: []
+  },
+  {
+    slug: 'breathlio',
+    title: 'Breathlio',
+    year: '2025',
+    description: '',
+    image: 'assets/images/projects/breathlio.png',
+      link: 'https://breathelio.com/',
+    tags: []
+  },
+  {
+    slug: 'dreaver',
+    title: 'Dreaver',
+    year: '2025',
+    description: '',
+    image: 'assets/images/projects/dreaver.png',
+      link: 'https://dreaver.nl/',
+    tags: []
+  },
+  {
+    slug: 'eclat',
+    title: 'Eclat',
+    year: '2025',
+    description: '',
+    image: 'assets/images/projects/eclat.png',
+      link: 'https://eclatantbeauty.nl/',
+    tags: []
+  },
+  {
+    slug: 'zelesta',
+    title: 'Zelesta',
+    year: '2025',
+    description: '',
+    image: 'assets/images/projects/zelesta.png',
+      link: 'https://zelesta.nl/',
+    tags: []
+  },
+  {
+    slug: 'zeuz',
+    title: 'Zeuz',
+    year: '2025',
+    description: '',
+    image: 'assets/images/projects/zeuz.png',
+      link: 'https://www.zeuzfitness.com/',
+    tags: []
+  },
+  {
+    slug: 'detailrs',
+    title: 'Detailrs',
+    year: '2024-2025',
+    description: '',
+    image: 'assets/images/projects/detailrs.png',
+      link: 'https://www.detailrs.nl/',
+    tags: []
+  },
+  {
+    slug: 'marielle-stokellar',
+    title: 'Marielle Stokellar',
+    year: '2024-2025',
+    description: '',
+    image: 'assets/images/projects/marielle-stokellar.png',
+      link: 'https://mariellestokkelaar.com/',
+    tags: []
+  },
+  {
+    slug: 'pierced',
+    title: 'Pierced',
+    year: '2024-2026',
+    description: '',
+    image: 'assets/images/projects/pierced.png',
+    link: 'https://pierced.ie',
+    tags: []
+  },
+  {
     slug: 'happybed',
     title: 'HappyBed',
     year: '2023 - Present',
@@ -18,22 +144,13 @@
     tags: ['A/B Testing', 'Redesign', 'Bundles', 'Translations', 'Custom Pricing']
   },
   {
-    slug: 'first-amsterdam',
-    title: 'First Amsterdam',
-    year: '2023 - 2024',
-    description: 'a/b testing, custom bundles, API, custom popups, translations, reviews',
-      image: 'assets/images/projects/first-amsterdam.png',
-    link: 'https://firstamsterdam.com',
-    tags: ['A/B Testing', 'Bundles', 'API', 'Translations']
-  },
-  {
-    slug: 'fatbikeskopen',
-    title: 'Fatbikeskopen',
-    year: '2023 - 2025',
-    description: 'a/b testing, custom compare bikes functionality, custom try bikes functionality',
-    image: 'assets/images/projects/fatbikeskopen.png',
-    link: 'https://fatbikeskopen.nl',
-    tags: ['A/B Testing', 'Custom Features', 'Shopify Plus']
+    slug: 'cookandpan',
+    title: 'Cook & Pan',
+    year: '2023 - Present',
+    description: 'Led full store redesign, implemented structured A/B testing, built upsell and discount logic improving revenue per session',
+    image: 'assets/images/projects/cookandpan.png',
+    link: 'https://cookandpan.com',
+    tags: ['A/B Testing', 'Redesign', 'Upsell']
   },
   {
     slug: 'chery-style',
@@ -45,6 +162,24 @@
     tags: ['A/B Testing', 'Bundles', 'Translations', 'Custom Features']
   },
   {
+    slug: 'fatbikeskopen',
+    title: 'Fatbikeskopen',
+    year: '2023 - 2025',
+    description: 'a/b testing, custom compare bikes functionality, custom try bikes functionality',
+    image: 'assets/images/projects/fatbikeskopen.png',
+    link: 'https://fatbikeskopen.nl',
+    tags: ['A/B Testing', 'Custom Features', 'Shopify Plus']
+  },
+  {
+    slug: 'first-amsterdam',
+    title: 'First Amsterdam',
+    year: '2023 - 2024',
+    description: 'a/b testing, custom bundles, API, custom popups, translations, reviews',
+    image: 'assets/images/projects/first-amsterdam.png',
+    link: 'https://firstamsterdam.com',
+    tags: ['A/B Testing', 'Bundles', 'API', 'Translations']
+  },
+  {
     slug: 'balzy',
     title: 'BALZY',
     year: '2023 - 2024',
@@ -52,6 +187,15 @@
     image: 'assets/images/projects/balzy.png',
     link: 'https://balzy.eu',
     tags: ['Redesign', 'Bundles', 'Webflow', 'A/B Testing']
+  },
+  {
+    slug: 'fugazzi',
+    title: 'Fugazzi Fragrances',
+    year: '2022 - 2023',
+    description: 'Full Shopify store development from scratch, built custom subscription integration with Recharge, implemented advanced Klaviyo flows, developed bundle logic and custom cart functionality',
+    image: 'assets/images/projects/fugazzi.png',
+    link: 'https://fugazzifragrances.com',
+    tags: ['Custom Theme', 'Subscriptions', 'Klaviyo', 'Bundles']
   },
   {
     slug: 'sayn-beauty',
@@ -72,15 +216,6 @@
     tags: ['Shopify Plus', 'Discounts', 'Scripts']
   },
   {
-    slug: 'grs',
-    title: 'GRS electrodomesticos',
-    year: '2021 - 2022',
-    description: 'full website development from scratch',
-    image: 'assets/images/projects/grs.png',
-      link: 'https://sv.grsenlinea.com/',
-    tags: ['Custom Theme', 'Full Development']
-  },
-  {
     slug: 'growlight-heaven',
     title: 'Growlight Heaven',
     year: '2021 - 2022',
@@ -88,6 +223,15 @@
     image: 'assets/images/projects/growlight-heaven.png',
     link: 'https://growlightheaven.com',
     tags: ['Custom Theme', 'Klaviyo', 'Integrations', 'Custom Features']
+  },
+  {
+    slug: 'grs',
+    title: 'GRS electrodomesticos',
+    year: '2021 - 2022',
+    description: 'full website development from scratch',
+    image: 'assets/images/projects/grs.png',
+      link: 'https://sv.grsenlinea.com/',
+    tags: ['Custom Theme', 'Full Development']
   },
   {
     slug: 'natashadenona',
@@ -135,22 +279,31 @@
     tags: ['GSAP', 'Integrations']
   },
   {
-    slug: 'fugazzi',
-    title: 'Fugazzi Fragrances',
-    year: '2022 - 2023',
-    description: 'Full Shopify store development from scratch, built custom subscription integration with Recharge, implemented advanced Klaviyo flows, developed bundle logic and custom cart functionality',
-    image: 'assets/images/projects/fugazzi.png',
-    link: 'https://fugazzifragrances.com',
-    tags: ['Custom Theme', 'Subscriptions', 'Klaviyo', 'Bundles']
+    slug: 'kisawa',
+    title: 'Kisawa',
+    year: '2020 - 2021',
+    description: 'pixel perfect, Vue.js, custom booking, GSAP',
+    image: 'assets/images/projects/kisawa.png',
+      link: 'https://kisawasanctuary.com/',
+    tags: ['GSAP', 'VUE.js', 'Custom Features', 'Performance']
   },
   {
-    slug: 'cookandpan',
-    title: 'Cook & Pan',
-    year: '2023 - Present',
-    description: 'Led full store redesign, implemented structured A/B testing, built upsell and discount logic improving revenue per session',
-    image: 'assets/images/projects/cookandpan.png',
-    link: 'https://cookandpan.com',
-    tags: ['A/B Testing', 'Redesign', 'Upsell']
+    slug: 'optimo',
+    title: 'Optimo',
+    year: '2020 - 2021',
+    description: 'Shopify integration, animation, barba.js',
+    image: 'assets/images/projects/optimo.png',
+    link: 'https://optimohats.com',
+    tags: ['GSAP', 'Integrations', 'Custom Theme']
+  },
+  {
+    slug: 'lixirskin',
+    title: 'Lixirskin',
+    year: '2020 - 2021',
+    description: 'Shopify, GSAP, Barba.js',
+    image: 'assets/images/projects/lixirskin.png',
+      link: 'https://lixirskin.co.uk/',
+    tags: ['GSAP', 'Integrations', 'Custom Theme']
   },
   {
     slug: 'hanscomb',
@@ -180,33 +333,6 @@
     tags: ['GSAP', 'VUE.js', 'Team Lead']
   },
   {
-    slug: 'kisawa',
-    title: 'Kisawa',
-    year: '2020 - 2021',
-    description: 'pixel perfect, Vue.js, custom booking, GSAP',
-    image: 'assets/images/projects/kisawa.png',
-      link: 'https://kisawasanctuary.com/',
-    tags: ['GSAP', 'VUE.js', 'Custom Features', 'Performance']
-  },
-  {
-    slug: 'optimo',
-    title: 'Optimo',
-    year: '2020 - 2021',
-    description: 'Shopify integration, animation, barba.js',
-    image: 'assets/images/projects/optimo.png',
-    link: 'https://optimohats.com',
-    tags: ['GSAP', 'Integrations', 'Custom Theme']
-  },
-  {
-    slug: 'lixirskin',
-    title: 'Lixirskin',
-    year: '2020 - 2021',
-    description: 'Shopify, GSAP, Barba.js',
-    image: 'assets/images/projects/lixirskin.png',
-      link: 'https://lixirskin.co.uk/',
-    tags: ['GSAP', 'Integrations', 'Custom Theme']
-  },
-  {
     slug: 'grocery-aid',
     title: 'Grocery Aid',
     year: '2019 - 2020',
@@ -223,131 +349,5 @@
     image: 'assets/images/projects/global-coach-sales.png',
     link: 'https://globalcoachsales.com',
     tags: ['Integrations', 'Custom Theme']
-  },
-  {
-    slug: 'airback',
-    title: 'Airback',
-    year: '2026',
-    description: '',
-    image: 'assets/images/projects/airback.png',
-      link: 'https://airback.store/',
-    tags: []
-  },
-  {
-    slug: 'ateljeesaar',
-    title: 'Ateljeesaar',
-    year: '2026',
-    description: '',
-    image: 'assets/images/projects/ateljeesaar.png',
-      link: 'https://ateljeesaar.nl/',
-    tags: []
-  },
-  {
-    slug: 'kip-a-loha',
-    title: 'Kip-a-Loha',
-    year: '2025-2026',
-    description: '',
-    image: 'assets/images/projects/kip-a-loha.png',
-      link: 'https://kipalohadamesmode.nl/',
-    tags: []
-  },
-  {
-    slug: 'mens-best-basics',
-    title: "Men's Best Basics",
-    year: '2025-2026',
-    description: '',
-    image: 'assets/images/projects/mens-best-basics.png',
-      link: 'https://mensbestbasics.nl/',
-    tags: []
-  },
-  {
-    slug: 'sjumo',
-    title: 'Sjumo',
-    year: '2025-2026',
-    description: '',
-    image: 'assets/images/projects/sjumo.png',
-      link: 'https://sjumo.com/',
-    tags: []
-  },
-  {
-    slug: 'detailrs',
-    title: 'Detailrs',
-    year: '2024-2025',
-    description: '',
-    image: 'assets/images/projects/detailrs.png',
-      link: 'https://www.detailrs.nl/',
-    tags: []
-  },
-  {
-    slug: 'eclat',
-    title: 'Eclat',
-    year: '2025',
-    description: '',
-    image: 'assets/images/projects/eclat.png',
-      link: 'https://eclatantbeauty.nl/',
-    tags: []
-  },
-  {
-    slug: 'marielle-stokellar',
-    title: 'Marielle Stokellar',
-    year: '2024-2025',
-    description: '',
-    image: 'assets/images/projects/marielle-stokellar.png',
-      link: 'https://mariellestokkelaar.com/',
-    tags: []
-  },
-  {
-    slug: 'dreaver',
-    title: 'Dreaver',
-    year: '2025',
-    description: '',
-    image: 'assets/images/projects/dreaver.png',
-      link: 'https://dreaver.nl/',
-    tags: []
-  },
-  {
-    slug: 'zelesta',
-    title: 'Zelesta',
-    year: '2025',
-    description: '',
-    image: 'assets/images/projects/zelesta.png',
-      link: 'https://zelesta.nl/',
-    tags: []
-  },
-  {
-    slug: 'breathlio',
-    title: 'Breathlio',
-    year: '2025',
-    description: '',
-    image: 'assets/images/projects/breathlio.png',
-      link: 'https://breathelio.com/',
-    tags: []
-  },
-  {
-    slug: 'atlasauto',
-    title: 'Atlas Auto',
-    year: '2025-2026',
-    description: '',
-    image: 'assets/images/projects/atlasauto.png',
-      link: 'https://atlasauto.com.ua',
-    tags: []
-  },
-  {
-    slug: 'pierced',
-    title: 'Pierced',
-    year: '2024-2026',
-    description: '',
-    image: 'assets/images/projects/pierced.png',
-    link: 'https://pierced.ie',
-    tags: []
-  },
-  {
-    slug: 'zeuz',
-    title: 'Zeuz',
-    year: '2025',
-    description: '',
-    image: 'assets/images/projects/zeuz.png',
-      link: 'https://www.zeuzfitness.com/',
-    tags: []
   }
 ];
