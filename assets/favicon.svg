@@ -12,5 +12,5 @@
     We will skew the P slightly to give it that perspective distortion and slant of your red box.
     Instead of rotate, let's use a full transform matrix or precise skew/rotate to match the bag's 3D perspective.
   -->
-  <text x="180" y="380" font-family="'Segoe UI', Arial, sans-serif" font-weight="900" font-style="italic" font-size="280" fill="#ffffff" text-anchor="middle" transform="rotate(2, 180, 380) skewX(-15)">P</text>
+  <text xmlns="http://www.w3.org/2000/svg" x="188" y="398" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-style="italic" font-size="293" fill="#ffffff" text-anchor="middle" transform="rotate(-2, 173, 406) skewX(-4) translateX(20px)">P</text>
 </svg>
