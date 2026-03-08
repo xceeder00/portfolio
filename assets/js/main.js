@@ -93,9 +93,13 @@
       var html = '';
       filtered.forEach(function (p, index) {
         var delay = Math.min(index * 0.06, 0.6);
+        var imageAttrs = index < 6 
+          ? 'fetchpriority="high"' 
+          : 'loading="lazy"';
+
         html += '<a href="../project/?slug=' + p.slug + '" class="project-card anim-fade-up" style="animation-delay:' + delay + 's">'
           + '<div class="project-card__image-wrapper">'
-          + '<img src="../' + p.image + '" alt="' + p.title + '" class="project-card__image" loading="lazy" onerror="this.src=\'https://placehold.co/800x500/1a1a1a/666?text=' + encodeURIComponent(p.title) + '\'">'
+          + '<img src="../' + p.image + '" alt="' + p.title + '" class="project-card__image" ' + imageAttrs + ' onerror="this.src=\'https://placehold.co/800x500/1a1a1a/666?text=' + encodeURIComponent(p.title) + '\'">'
           + '<div class="project-card__overlay">'
           + '<span class="project-card__view">View Project</span>'
           + '</div>'
@@ -153,7 +157,7 @@
         + '<section class="project-preview anim-fade-up" style="animation-delay:0.35s">'
         + '<a href="' + project.link + '" class="project-preview__link" target="_blank" rel="noopener noreferrer">'
         + '<div class="project-preview__frame">'
-        + '<img src="../' + project.image + '" alt="' + project.title + '" class="project-preview__image" onerror="this.src=\'https://placehold.co/1200x700/1a1a1a/666?text=' + encodeURIComponent(project.title) + '\'">'
+        + '<img src="../' + project.image + '" alt="' + project.title + '" class="project-preview__image" fetchpriority="high" onerror="this.src=\'https://placehold.co/1200x700/1a1a1a/666?text=' + encodeURIComponent(project.title) + '\'">'
         + '<div class="project-preview__overlay">'
         + '<span class="project-preview__visit">Visit Site</span>'
         + '</div>'
