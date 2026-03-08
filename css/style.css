@@ -1,5 +1,5 @@
 ﻿/* ============================================
-   Font Face вЂ” Termina
+   Font Face  -  Termina
    ============================================ */
 @font-face {
   font-family: 'Termina';
@@ -212,7 +212,7 @@ img {
 }
 
 /* ============================================
-   Responsive вЂ” Tablet
+   Responsive  -  Tablet
    ============================================ */
 @media screen and (max-width: 989px) {
   .hero__content {
@@ -235,7 +235,7 @@ img {
 }
 
 /* ============================================
-   Responsive вЂ” Mobile
+   Responsive  -  Mobile
    ============================================ */
 @media screen and (max-width: 749px) {
   .hero {
@@ -312,7 +312,7 @@ img {
 }
 
 /* ============================================
-   Responsive вЂ” Small Mobile
+   Responsive  -  Small Mobile
    ============================================ */
 @media screen and (max-width: 479px) {
   .hero__content {
@@ -882,14 +882,14 @@ img {
   color: #9ec5fe;
 }
 
-/* Skills Page вЂ” Responsive Tablet */
+/* Skills Page  -  Responsive Tablet */
 @media screen and (max-width: 989px) {
   .skills-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-/* Skills Page вЂ” Responsive Mobile */
+/* Skills Page  -  Responsive Mobile */
 @media screen and (max-width: 749px) {
   .skills-intro {
     padding: 60px 24px 40px;
@@ -1051,7 +1051,7 @@ img {
   transform: translateX(-4px);
 }
 
-/* Project Page вЂ” Responsive Mobile */
+/* Project Page  -  Responsive Mobile */
 @media screen and (max-width: 749px) {
   .project-hero {
     padding: 60px 24px 40px;
