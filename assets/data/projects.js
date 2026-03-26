@@ -17,15 +17,6 @@ var PROJECTS = [
       link: 'https://cookandpan.com',
       tags: ['A/B Testing', 'Redesign', 'Upsell']
     },
-    {
-    slug: 'airback',
-    title: 'Airback',
-    year: '2026',
-    description: '',
-    image: 'assets/images/projects/airback.webp',
-      link: 'https://airback.store/',
-    tags: []
-  },
   {
     slug: 'ateljeesaar',
     title: 'Ateljeesaar',
