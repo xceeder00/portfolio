@@ -24,7 +24,7 @@ var PROJECTS = [
     description: '',
     image: 'assets/images/projects/ateljeesaar.webp',
       link: 'https://ateljeesaar.nl/',
-    tags: []
+      tags: ['A/B Testing']
   },
   {
     slug: 'atlasauto',
@@ -33,7 +33,7 @@ var PROJECTS = [
     description: '',
     image: 'assets/images/projects/atlasauto.webp',
       link: 'https://atlasauto.com.ua',
-    tags: []
+    tags: ['Redesign', 'Custom Theme']
   },
   {
     slug: 'kip-a-loha',
@@ -42,7 +42,7 @@ var PROJECTS = [
     description: '',
     image: 'assets/images/projects/kip-a-loha.webp',
       link: 'https://kipalohadamesmode.nl/',
-    tags: []
+      tags: ['A/B Testing', 'Custom Features', 'Bundles']
 },
 {
   slug: 'sneakerask',
@@ -60,7 +60,7 @@ var PROJECTS = [
     description: '',
     image: 'assets/images/projects/mens-best-basics.webp',
       link: 'https://mensbestbasics.nl/',
-    tags: []
+    tags: ['A/B Testing', 'Custom Features', 'Bundles', 'Redesign']
   },
   {
     slug: 'sjumo',
@@ -69,7 +69,7 @@ var PROJECTS = [
     description: '',
     image: 'assets/images/projects/sjumo.webp',
       link: 'https://sjumo.com/',
-    tags: []
+    tags: ['Redesign', 'Custom Theme']
   },
   {
     slug: 'breathlio',
@@ -78,7 +78,7 @@ var PROJECTS = [
     description: '',
     image: 'assets/images/projects/breathlio.webp',
       link: 'https://breathelio.com/',
-    tags: []
+    tags: ['Custom Theme', 'Custom Features']
   },
   {
     slug: 'dreaver',
@@ -87,7 +87,7 @@ var PROJECTS = [
     description: '',
     image: 'assets/images/projects/dreaver.webp',
       link: 'https://dreaver.nl/',
-    tags: []
+    tags: ['A/B Testing', 'Custom Features', 'Bundles', 'Multi-language']
   },
   {
     slug: 'eclat',
@@ -96,7 +96,7 @@ var PROJECTS = [
     description: '',
     image: 'assets/images/projects/eclat.webp',
       link: 'https://eclatantbeauty.nl/',
-    tags: []
+    tags: ['A/B Testing', 'Custom Features', 'Bundles', 'Multi-language']
   },
   {
     slug: 'zelesta',
@@ -105,7 +105,7 @@ var PROJECTS = [
     description: '',
     image: 'assets/images/projects/zelesta.webp',
       link: 'https://zelesta.nl/',
-    tags: []
+    tags: ['A/B Testing', 'Custom Features', 'Bundles', 'Multi-language']
   },
   {
     slug: 'zeuz',
@@ -114,7 +114,7 @@ var PROJECTS = [
     description: '',
     image: 'assets/images/projects/zeuz.webp',
       link: 'https://www.zeuzfitness.com/',
-    tags: []
+    tags: ['Redesign', 'Custom Theme', 'Custom Features']
   },
   {
     slug: 'detailrs',
@@ -123,7 +123,7 @@ var PROJECTS = [
     description: '',
     image: 'assets/images/projects/detailrs.webp',
       link: 'https://www.detailrs.nl/',
-    tags: []
+      tags: ['A/B Testing', 'Custom Features', 'Bundles', 'Multi-language']
   },
   {
     slug: 'marielle-stokellar',
@@ -132,7 +132,7 @@ var PROJECTS = [
     description: '',
     image: 'assets/images/projects/marielle-stokellar.webp',
       link: 'https://mariellestokkelaar.com/',
-    tags: []
+    tags: ['A/B Testing', 'Custom Features', 'Bundles', 'Multi-language']
   },
   {
     slug: 'pierced',
@@ -141,7 +141,7 @@ var PROJECTS = [
     description: '',
     image: 'assets/images/projects/pierced.webp',
     link: 'https://pierced.ie',
-    tags: []
+    tags: ['Redesign', 'Custom Theme', 'Custom Features', 'Bundles']
   },
   {
     slug: 'chery-style',
